@@ -23,7 +23,7 @@ export default function Navbar({ sections }: NavbarProps) {
           {/* Left: Logo + Links */}
           <div className="flex items-center gap-8">
             <Link href="/" className="text-xl font-bold">
-              LOGO
+              Yakujaa.....
             </Link>
             <NavLinks sections={sections} />
           </div>
@@ -32,7 +32,7 @@ export default function Navbar({ sections }: NavbarProps) {
           <SearchBar />
 
           {/* Right: Icons */}
-          <UserActions onMenuClick={() => setOpen(!open)} />
+          <UserActions  />
         </div>
       </nav>
 

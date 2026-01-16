@@ -2,6 +2,7 @@
 import { NavItem } from "@/types/nav";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
+import AuthModal from "./components/(auth)/AuthModel";
 
 const sections: NavItem[] = [
   { label: "Home", href: "/" },
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar sections={sections} />
+        <AuthModal />
         {children}
       </body>
     </html>
